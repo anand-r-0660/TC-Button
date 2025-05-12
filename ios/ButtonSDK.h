@@ -1,5 +1,6 @@
-#import <React/RCTBridgeModule.h>
-#import <React/RCTEventEmitter.h>
+// ButtonSDK.h
+// Pure iOS SDK header
+#import <Foundation/Foundation.h>
 
-@interface ButtonSDK : RCTEventEmitter <RCTBridgeModule>
+@interface ButtonSDK : NSObject
 @end 
